@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #eee;
+  font-family: "Markazi Text", serif;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  border-bottom: 1px solid #333;
+}
