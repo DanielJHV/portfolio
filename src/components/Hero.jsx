@@ -23,7 +23,7 @@ function Hero() {
         <a href="#projects">
           <img
             className="arrow-bottom"
-            src="src/assets/arrow-bottom.svg"
+            src="/images/arrow-bottom.svg"
             alt="Arrow bottom"
           />
         </a>
