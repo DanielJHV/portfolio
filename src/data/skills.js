@@ -1,47 +1,42 @@
 export const skills = [
   {
     name: "Java",
-    imgSrc: "src/assets/java-logo.svg",
+    imgSrc: "/images/java-logo.svg",
     alt: "Java logo",
   },
   {
     name: "Spring Boot",
-    imgSrc: "src/assets/spring-logo.svg",
+    imgSrc: "/images/spring-logo.svg",
     alt: "Spring logo",
   },
   {
     name: "React",
-    imgSrc: "src/assets/react-logo.svg",
+    imgSrc: "/images/react-logo.svg",
     alt: "React logo",
   },
   {
     name: "TypeScript",
-    imgSrc: "src/assets/typeScript-logo.svg",
+    imgSrc: "/images/typeScript-logo.svg",
     alt: "TypeScript logo",
   },
   {
     name: "JavaScript",
-    imgSrc: "src/assets/javaScript-logo.svg",
+    imgSrc: "/images/javaScript-logo.svg",
     alt: "JavaScript logo",
   },
   {
     name: "Python",
-    imgSrc: "src/assets/python-logo.svg",
+    imgSrc: "/images/python-logo.svg",
     alt: "Python logo",
   },
   {
     name: "HTML",
-    imgSrc: "src/assets/html-logo.svg",
+    imgSrc: "/images/html-logo.svg",
     alt: "HTML logo",
   },
   {
     name: "CSS",
-    imgSrc: "src/assets/css-logo.svg",
+    imgSrc: "images/css-logo.svg",
     alt: "CSS logo",
   },
-  // {
-  //   name: "Sass",
-  //   imgSrc: "src/assets/sass-logo.svg",
-  //   alt: "Sass logo",
-  // },
 ];
