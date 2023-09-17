@@ -110,10 +110,10 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 50rem;
+  height: auto;
   max-width: 120rem;
   margin: 2rem;
-  padding: 2rem;
+  padding: 10rem 4rem;
   border: 2px solid #fff;
 }
 
@@ -227,7 +227,6 @@ html {
 .project:hover {
   background-color: #333;
   transition: 0.4s all;
-  height: 32rem;
   border: 1px solid #000;
   cursor: pointer;
 }
@@ -306,7 +305,7 @@ html {
 
 .skill__img-box {
   display: flex;
-  justify-content: centeskill__img-bomedior;
+  justify-content: center;
   align-items: center;
   width: 8rem;
   border-radius: 50%;
@@ -434,10 +433,6 @@ html {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .hero__text {
-    height: 55rem;
-  }
-
   .header span {
     font-size: 3.8rem;
   }
@@ -499,10 +494,6 @@ html {
     font-size: 3.2rem;
   }
 
-  .hero__text {
-    height: 70rem;
-  }
-
   .arrow-bottom {
     height: 8rem;
     width: 8rem;
@@ -514,14 +505,10 @@ html {
 
   .project {
     flex-direction: column;
-    height: 70rem;
+    height: 50rem;
     gap: 4rem;
-    padding: 8rem 4rem;
+    padding: 10rem 2rem;
     justify-content: center;
-  }
-
-  .project:hover {
-    height: 70rem;
   }
 
   .project__name {
@@ -554,12 +541,6 @@ html {
 
   .footer-logo.linkedin-logo {
     height: 3.4rem;
-  }
-}
-
-@media (max-width: 27em) {
-  .hero__text {
-    height: 82rem;
   }
 }
 

@@ -16,12 +16,12 @@ export const skills = [
   },
   {
     name: "TypeScript",
-    imgSrc: "images/typeScript-logo.svg",
+    imgSrc: "images/typescript-logo.svg",
     alt: "TypeScript logo",
   },
   {
     name: "JavaScript",
-    imgSrc: "images/javaScript-logo.svg",
+    imgSrc: "images/javascript-logo.svg",
     alt: "JavaScript logo",
   },
   {
