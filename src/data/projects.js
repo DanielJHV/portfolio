@@ -26,7 +26,7 @@ export const projects = [
     projectName: "Connect Four",
     description: "Online Connect Four game.",
     stack: "JavaScript | CSS | HTML",
-    imgSrc: "images/aconnect-four.png",
+    imgSrc: "images/connect-four.png",
     code: "https://github.com/DanielJHV/connect-four",
   },
 

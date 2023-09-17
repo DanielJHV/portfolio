@@ -10,7 +10,7 @@ function Footer() {
         >
           <img
             className="footer-logo github-logo"
-            src="/images/github-logo.svg"
+            src="images/github-logo.svg"
             alt="Github logo"
           />
         </a>
@@ -21,7 +21,7 @@ function Footer() {
         >
           <img
             className="footer-logo linkedin-logo"
-            src="/images/linkedin-logo.svg"
+            src="images/linkedin-logo.svg"
             alt="Linkedin logo"
           />
         </a>
