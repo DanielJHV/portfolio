@@ -339,7 +339,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: auto;
+  padding: 2rem;
   background-color: #000;
 }
 
@@ -405,10 +406,6 @@ html {
 
   .hero__description {
     font-size: 2.8rem;
-  }
-
-  .footer {
-    height: 6.5vh;
   }
 
   .footer__copyright {
