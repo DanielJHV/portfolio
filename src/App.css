@@ -179,3 +179,392 @@ html {
     transform: translate(-50%, -2rem);
   }
 }
+
+.section-projects {
+  height: auto;
+  padding: 12rem 1.6rem;
+  background-color: #000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-width: 120rem;
+  margin: auto;
+}
+
+.heading-secondary {
+  margin: auto;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 7rem;
+  color: #eee;
+  font-size: 2.4rem;
+  margin-top: 8rem;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  border: 1px solid #333;
+  padding: 2.4rem;
+  height: 28rem;
+}
+
+.project:hover {
+  background-color: #333;
+  transition: 0.4s all;
+  height: 32rem;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.project__name {
+  font-size: 3rem;
+  margin-bottom: 0.4rem;
+}
+
+.project__description {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.project__stack {
+  display: inline-block;
+  margin: 1rem 0rem 0.8rem 0;
+  font-size: 1.8rem;
+  color: #ccc;
+}
+
+.project__img-box {
+  height: 100%;
+  border: 1px solid #fff;
+}
+
+.project__img {
+  height: 100%;
+}
+
+.project__links {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.project__link-code,
+.project__link-demo {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 0.2rem;
+  border-bottom: 1px solid #fff;
+}
+
+.section-skills {
+  background-color: #000;
+  padding: 10rem 1.6rem;
+  height: auto;
+}
+
+.section-skills .heading-secondary {
+  color: #fff;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  row-gap: 3rem;
+  width: 75%;
+  margin: auto;
+  padding: 3rem 0;
+  color: #000;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 13rem;
+  padding: 1.2rem;
+  transition: 0.4;
+  transition: all 0.2s;
+}
+
+.skill__img-box {
+  display: flex;
+  justify-content: centeskill__img-bomedior;
+  align-items: center;
+  width: 8rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  padding: 1.8rem;
+  background-color: #fff;
+  border: 3px solid #000;
+}
+
+.skill__img {
+  width: 100%;
+}
+
+.skill__name {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.section-contact {
+  height: 40vh;
+  background-color: #fff;
+}
+
+.section-contact .heading-secondary {
+  color: #000;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #000;
+}
+
+.footer__copyright {
+  margin-right: 1.6rem;
+  padding: 1.6rem 2rem;
+  border-right: 1px solid #ccc;
+  font-size: 1.8rem;
+}
+
+.footer-logo {
+  margin-right: 1rem;
+}
+
+.linkedin-logo {
+  height: 2.4rem;
+}
+
+.github-logo {
+  height: 2.8rem;
+}
+
+.footer-link:hover .footer-logo {
+  opacity: 0.85;
+}
+
+@media (max-width: 61.25em) {
+  .project__img-box {
+    height: 80%;
+  }
+}
+
+@media (max-width: 54em) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading-primary {
+    font-size: 9.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 4.4rem;
+  }
+
+  .arrow-bottom {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .header span {
+    font-size: 3.8rem;
+  }
+
+  .nav__link {
+    font-size: 3rem;
+  }
+
+  .contact-btn,
+  .more-btn {
+    font-size: 3.2rem;
+  }
+
+  .hero__description {
+    font-size: 2.8rem;
+  }
+
+  .footer {
+    height: 6.5vh;
+  }
+
+  .footer__copyright {
+    font-size: 2rem;
+  }
+
+  .footer-logo.github-logo {
+    height: 3.2rem;
+  }
+
+  .footer-logo.linkedin-logo {
+    height: 2.8rem;
+  }
+
+  .hero-description {
+    margin-bottom: 3.4rem;
+  }
+}
+
+@media (max-width: 46em) {
+  .skills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero__text {
+    height: 55rem;
+  }
+
+  .header span {
+    font-size: 3.8rem;
+  }
+
+  .nav-list {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 40%;
+  }
+
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero__text {
+    margin: 2.8rem;
+    padding: 2.8rem;
+  }
+
+  .hero-description {
+    margin-bottom: 3.4rem;
+  }
+
+  .heading-primary {
+    font-size: 8rem;
+  }
+
+  .contact-btn,
+  .more-btn {
+    font-size: 3.4rem;
+  }
+
+  .header span {
+    font-size: 4.2rem;
+  }
+
+  .nav__link {
+    font-size: 3.2rem;
+  }
+
+  .nav__list {
+    gap: 1.2rem;
+  }
+
+  .heading-primary {
+    font-size: 9.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .heading-secondary {
+    font-size: 5.2rem;
+  }
+
+  .hero__description {
+    font-size: 3.2rem;
+  }
+
+  .hero__text {
+    height: 70rem;
+  }
+
+  .arrow-bottom {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .skill__img-box {
+    width: 8rem;
+  }
+
+  .project {
+    flex-direction: column;
+    height: 70rem;
+    gap: 4rem;
+    padding: 8rem 4rem;
+    justify-content: center;
+  }
+
+  .project:hover {
+    height: 70rem;
+  }
+
+  .project__name {
+    font-size: 4rem;
+  }
+
+  .project__description {
+    font-size: 2.6rem;
+  }
+
+  .project__stack {
+    font-size: 2.6rem;
+  }
+
+  .project__links {
+    font-size: 2.6rem;
+  }
+
+  .project__img-box {
+    height: 50%;
+  }
+
+  .footer__copyright {
+    font-size: 2.4rem;
+  }
+
+  .footer-logo.github-logo {
+    height: 3.8rem;
+  }
+
+  .footer-logo.linkedin-logo {
+    height: 3.4rem;
+  }
+}
+
+@media (max-width: 27em) {
+  .hero__text {
+    height: 82rem;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 36%;
+  }
+}
