@@ -30,6 +30,11 @@ export const skills = [
     alt: "Python logo",
   },
   {
+    name: "PostgreSQL",
+    imgSrc: "images/postgresql-logo.svg",
+    alt: "PostgreSQL logo",
+  },
+  {
     name: "HTML",
     imgSrc: "images/html-logo.svg",
     alt: "HTML logo",
@@ -38,5 +43,10 @@ export const skills = [
     name: "CSS",
     imgSrc: "images/css-logo.svg",
     alt: "CSS logo",
+  },
+  {
+    name: "Sass",
+    imgSrc: "images/sass-logo.svg",
+    alt: "Sass logo",
   },
 ];
